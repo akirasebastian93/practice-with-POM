@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="my test suite"  configfailurepolicy="continue">
+<!-- parallel="methods" thread-count="3" -->
+       <test name="LYTY ">
+       <parameter name="browserName" value="CBT" />
+       <parameter name="platform" value="Windows 7 64-Bit" />
+       <parameter name="browserVersion" value="52x64" />
+       <parameter name="screenResolution" value="1280x1024" />
+       <classes>
+              <class name = "/practicesessionid/src/test/java/PracticeSession/practicesessionid/AppTest"/>
+       </classes>
+</test>
+</suite>
